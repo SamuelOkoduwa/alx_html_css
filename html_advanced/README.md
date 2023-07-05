@@ -20,7 +20,7 @@ General
 - Your code should be W3C compliant and validate with W3C-Validator
 
 <p>
-	<img src=".Images/HTML.png" width="350" title="HTML text">
+	<img src="./Images/HTML.png" width="350" title="HTML text">
 </p>
 
 Tasks
