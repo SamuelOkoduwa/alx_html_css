@@ -7,6 +7,9 @@ main {
 	flex-direction: row;
 	flex: auto;
 }
+main img {
+	width: 500px;
+}
 article {
 	flex: 2;
 	overflow-y: auto;
