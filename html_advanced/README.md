@@ -19,6 +19,10 @@ General
 - You are not allowed to install, import or use external libraries. This website must be build with only HTML/CSS/JavaScript. No NodeJS, React, VueJS, Bootstrap, etc.
 - Your code should be W3C compliant and validate with W3C-Validator
 
+<p>
+	<img src=".Images/HTML.png" width="350" title="HTML text">
+</p>
+
 Tasks
 0. README and objectives!
 mandatory
