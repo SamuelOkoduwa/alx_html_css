@@ -1,0 +1,128 @@
+body{
+	margin: 0%;
+	padding: 0%;
+}
+/* ===================HEADER ==================== */
+/* Header */
+.hero-section{
+	background-image: url(./images/headphones_hero_1.jpg);
+	height: 450px;
+}
+.logo {
+	padding: 20px;
+}
+.header {
+	display: flex;
+	justify-content: space-around;
+}
+
+/* Navigation */
+.nav-menu ul{
+	display: flex;
+	
+}
+.nav-menu ul li {
+	color: white;
+	justify-content: space-evenly;
+	padding: 20px;
+	list-style: none;
+	text-decoration: none;
+}
+.w-6 {
+	width: 20px;
+}
+h3 {
+	font: weight 400px;
+	size: 11px;
+	line-height: 16px;
+	font-family: inter, san-serif;
+	text-align: center;
+}
+p {
+	font-size: larger;
+	  text-align: center;
+}
+.hamburger {
+	color: white;
+	align-content: center;
+	padding-top: 45px;
+	display: none;
+}
+.main_part {
+	text-align: center;
+	color: white;
+	width: 80%x;
+	height: 800px;
+}
+button {
+	background-color:#ff6565;;
+	border-radius: 15px;
+	padding: 25px;
+	color: white;
+	padding: 10px;
+	margin-top: 20px;
+	margin-bottom: 30px;
+}
+
+/* Mobile Header */
+@media screen and (max-width: 480px) {
+	.hero-section{
+		background-image: url(./images/headphones_hero_1.jpg);
+		height: 500px;
+		background-size: cover;
+	}
+	.nav-menu ul li {
+		display: none;
+	}
+	.nav-menu ul li a {
+		display: block;
+		width: 100%;
+		box-sizing: border-box;	
+	}
+	.hamburger {
+		color: white;
+		align-content: center;
+		padding-top: 45px;
+		display: block;
+	}
+	.hamburger input:checked ~ .nav-menu ul {
+		display: block;
+	}
+	.main_part {
+		text-align: center;
+		color: white;
+		font-size:small;
+	}	
+}
+
+/* =========WHAT WE DO SESSION========= */
+.what_we_do {
+	text-align: center;
+}
+.what_we_do_icon{
+	display: flex;
+	align-items: center;	
+}
+.what_we_do_icon #icon img {
+	width: 100px;
+	margin-left: 40%;
+	height: 100px;
+}
+
+@media screen and (max-width: 480px){
+	.what_we_do {
+		text-align: center;
+		font-size: smaller;
+		margin-top: 10%;
+	}
+	.what_we_do_icon{
+		display: block;
+	}
+	.what_we_do_icon #icon img {
+		width: 100px;
+		margin-left: 40%;
+	}
+}
+
+
+
