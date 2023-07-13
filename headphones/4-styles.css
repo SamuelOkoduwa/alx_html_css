@@ -196,4 +196,16 @@ footer{
 	gap: 15px;
 }
 
+@media screen and (max-width: 480px){
+	.footer-header{
+		height: 5px;
+		justify-content: left;
+	}
+	.social-media-icons {
+		gap: none;
+		width: 15px;
+		padding: 65px;
+	}	
+}
+
 
