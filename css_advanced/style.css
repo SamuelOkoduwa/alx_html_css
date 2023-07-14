@@ -112,3 +112,36 @@ h1 {
 	display: flex;
 	padding-bottom: 40px;
 }
+
+/* ======FAQ SESSION===== */
+.faq {
+	text-align: center;
+}
+.four-blocks{
+	display: inline-block;
+	
+}
+.first-row {
+	display: flex;
+	padding-right: 50px;
+}
+.second-row {
+	display: flex;
+	padding-left: 50px;
+}
+
+/* ===== FOOTER =====*/
+footer {
+	background-color: rgb(7, 22, 41);
+	text-align: center;
+	color: #ffffff;
+}
+.logo-and-handle {
+	justify-content: space-around;
+	padding-top: 30px;
+	justify-items: center;
+	display: flex;
+}
+.logo-and-handle .social a{
+	padding: 5px;
+}
