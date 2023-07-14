@@ -1,3 +1,6 @@
+body {
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
 /* =======HEADER====== */
 
 header  {
@@ -60,4 +63,18 @@ h1 {
 	text-align: center;
 	color: #ffffff;
 	margin-top: 60px;
+	padding-bottom: 60px;
+}
+
+/* =====Quote==== */
+#quote {
+	background-color: rgb(194, 113, 255);
+	display: flex;
+	justify-content: space-between;
+	padding: 65px 85px 65px 85px;
+	color: #ffffff;
+}
+.quote p {
+	font-size: 15px;
+	
 }
