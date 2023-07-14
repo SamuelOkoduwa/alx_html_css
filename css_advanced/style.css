@@ -101,3 +101,14 @@ h1 {
 	justify-content: flex-start;
 	gap: 20px;
 }
+
+/* ======MEMBERSHIP====== */
+#membership {
+	background-color: rgb(7, 22, 41);
+	color: #ffffff;
+	text-align: center;
+}
+.membership {
+	display: flex;
+	padding-bottom: 40px;
+}
