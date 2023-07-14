@@ -75,6 +75,29 @@ h1 {
 	color: #ffffff;
 }
 .quote p {
-	font-size: 15px;
-	
+	font-size: 15px;	
+}
+
+/* =========Tutorial Session======== */
+.tuto {
+	display: flex;
+	justify-content: center;
+	margin-top: 80px;
+	padding-left: 10px;
+	padding-right: 10px;
+	gap: 5px;
+	align-content: space-evenly;
+}
+.rating {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+.rating img {
+	height: 15px;
+}
+.mentor {
+	display: flex;
+	justify-content: flex-start;
+	gap: 20px;
 }
