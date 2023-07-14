@@ -1,0 +1,63 @@
+/* =======HEADER====== */
+
+header  {
+	background-image: url(./images/Object.png);
+	background-size: cover;
+}
+.menu {
+	display: flex;
+	justify-content: space-between;
+	padding-right: 25px;
+	color: white;
+}
+
+/* Navigation Bar */
+.logo {
+	padding-top: 10px;
+	padding-left: 10px;
+	width: 15px;
+}
+.nav-bar ul {
+	display: flex;
+	gap: 30px;
+	list-style-type: none;
+}
+.nav-bar ul li a{
+	text-decoration: none;
+	color: white;	
+}
+
+/* Main Part of the header */
+.main_part {
+	text-align: center;
+	color: #ffffff;
+}
+button {
+	background-color: rgb(194, 113, 255);
+	color: #ffffff;
+	border-radius: 15px;
+	padding: 10px;
+	font-size: 7px;
+	box-shadow: none;
+	border: none;
+}
+h1 {
+	margin-bottom: 10px;
+	font-size: 60px;
+}
+.benefits {
+	display: flex;
+	justify-content: center;
+	gap: 15px;
+	font-size:x-small;
+	margin-bottom: 30px;
+}
+
+/*Pros Section*/
+.pros {
+	display: flex;
+	justify-content: space-evenly;
+	text-align: center;
+	color: #ffffff;
+	margin-top: 60px;
+}
