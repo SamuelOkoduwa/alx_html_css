@@ -100,7 +100,10 @@ button {
 }
 .what_we_do_icon{
 	display: flex;
-	align-items: center;	
+	text-align: center;		
+}
+.what_we_do .icon_1 p {
+	width: 350px;
 }
 .what_we_do_icon #icon img {
 	width: 100px;
@@ -134,6 +137,7 @@ button {
 	color: white;
 	font-family: 'Source Sans 3', sans-serif;
 	padding: 25px;
+	justify-content: center;
 }
 .results {
 	display: flex;
@@ -141,6 +145,7 @@ button {
 	gap: 40px;
 	justify-content: center;
 	align-content: space-around;
+	flex-wrap: wrap;
 }
 
 @media screen and (max-width: 480px){
