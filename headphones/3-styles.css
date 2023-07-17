@@ -26,7 +26,13 @@ body{
 	justify-content: space-evenly;
 	padding: 20px;
 	list-style: none;
+}
+.nav-menu ul a {
 	text-decoration: none;
+}
+
+.nav-menu  ul a li:hover {
+	color: #FF6565;
 }
 .w-6 {
 	width: 20px;
@@ -61,6 +67,9 @@ button {
 	padding: 10px;
 	margin-top: 20px;
 	margin-bottom: 30px;
+}
+.main_part a button:hover {
+	opacity: 0.9;
 }
 
 /* Mobile Header */
