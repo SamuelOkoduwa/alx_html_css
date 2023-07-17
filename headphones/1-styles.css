@@ -110,7 +110,8 @@ button {
 }
 .what_we_do_icon{
 	display: flex;
-	align-items: center;	
+	align-items: center;
+	/* flex-wrap: wrap; */
 }
 .what_we_do_icon #icon img {
 	width: 100px;
