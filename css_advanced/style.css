@@ -116,18 +116,21 @@ h1 {
 /* ======FAQ SESSION===== */
 .faq {
 	text-align: center;
-}
-.four-blocks{
-	display: inline-block;
-	
+	justify-content: center;
 }
 .first-row {
 	display: flex;
-	padding-right: 50px;
+	justify-content: center;
+	width: 700px;
+	text-align: center;
+	padding-left: 120px;
+	
+	
 }
 .second-row {
 	display: flex;
-	padding-left: 50px;
+	padding-left: 120px;
+	width: 700px;
 }
 
 /* ===== FOOTER =====*/
